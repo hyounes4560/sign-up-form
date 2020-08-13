@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>contact me</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="banner">
+        <h1>Hanan Younes</h1>
+
+        <nav>
+            <a href="index.html">Home</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact Me</a>
+        </nav>
+
+    </div>
+
+    <main>
+
+        <div class="container">
+
+            <h2>Get in Touch</h2>
+
+
+            <p>Hi there, want to stay up to date!? Please fill in the sign uo form to receive our newsletter</p>
+            <button class="signUp" onclick="signUpForm()">Sign Up</button>
+            <div class="signupForm" id="form">
+                <form action="" class="form-container">
+
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="Email" placeholder="Enter Email" name="email" required><br>
+
+                    <label for="pass"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="pass" required><br>
+
+                    <label for="re-pass"><b>Re-Enter Password</b></label><br>
+                    <input type="password" placeholder="Re-enter Password" name="re-pass" required><br>
+
+                    <p>By signing up you agree to our Terms & Privacy.</p>
+
+
+                    <button type="submit" class="btn">Sign Up</button>
+                    <button type="button" class="cancel" onclick="closeForm()">Cancel</button><br>
+                </form>
+
+
+
+
+            </div>
+
+
+            <div id="social">
+
+                <p>If you like to know more about my professional experience and skills!
+                    Connect with me on Linkedin</p>
+
+                <a target="_blank" href="https://ca.linkedin.com/"><img src="images/LI-In-Bug.png" alt="logo"></a>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer><span>Copyright&copy; 2019 Hanan Younes</span></footer>
+
+    <script>
+        function signUpForm() {
+            var x = document.getElementsByClassName("signupForm");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "block";
+            }
+        }
+
+        function closeForm() {
+            var x = document.getElementsByClassName("signupForm");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+    <!--include jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--include jQuery Plugin-->
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+    <!--include validation rules-->
+    <script src="validate.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1>Create an account</h1>
+    </div>
+
+
+    <div>
+        <form id="sign_up" action="" method="post">
+            <fieldset>
+                <legend>
+                    <h2>Fill in your information:</h2>
+                </legend><br>
+                <lable for="first_name">First Name:</lable><br>
+                <input name="first_name" type="text" placeholder="First Name"><br>
+                <lable for="last_name">Last Name:</lable><br>
+                <input name="last_name" type="text" placeholder="Last Name"><br>
+                <lable for="email">Email:</lable><br>
+                <input name="email" type="email" placeholder="e.g. foo@foo.bar"><br>
+                <lable for="password">Password (8 characters minimum):</lable><br>
+                <input name="password" type="password" id="password" placeholder="Password"><br>
+                <lable for="confirm_password">Confirm Password:</lable><br>
+                <input name="confirm_password" type="password" placeholder="Confirm Password"><br>
+                <label for="phone_number">Telephone Number:</label><br>
+                <input name="phone_number" type="tel" placeholder="e.g. +9(999) 999-9999"><br>
+                <lable for="website">Website address:</lable><br>
+                <input name="website" type="url" placeholder="Personal Website"><br>
+                <br><input id="submit" type="submit" value="Submit">&nbsp;
+                <input id="reset" type="reset" value="Reset">
+            </fieldset>
+
+        </form>
+    </div>
+
+
+
+</body>
+
+<footer>
+    <!--HTML basic skeleton obtained from http://htmlshell.com/*/-->
+
+</footer>
+
+</html>
