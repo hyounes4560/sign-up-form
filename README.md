@@ -2,3 +2,5 @@
 1. Go to Contact Me
 2. Click on Sign Up; the form will be displayed
 3. click cancel to hide the form
+
+![alt text](C:\Users\white\Pictures\1.png)
